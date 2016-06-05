@@ -1,5 +1,12 @@
-"Hello World" 
-{% for repository in site.github.public_repositories %}
-  * {{ repository.name }}
-{% endfor %}
+<html>
+  <head>
+    <title>Thugs Rumal</title>
+  </head>
+
+  <body>
+    {% for repository in site.github.public_repositories %}
+        * {{ repository.name }}
+    {% endfor %}
+  </body>
+</html>
 
